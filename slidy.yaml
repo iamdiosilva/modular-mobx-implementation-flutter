@@ -1,0 +1,6 @@
+slidy: '1'
+variables:
+  customMessage: "Complete"    # Gets  ${Local.var.customMessage}
+
+scripts:
+  watch: fvm flutter pub run build_runner watch
